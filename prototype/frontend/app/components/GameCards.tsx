@@ -1,7 +1,4 @@
-type GameCard = {
-  title: string;
-  description: string;
-};
+import type { GameCard } from "../types/games";
 
 type GameCardsProps = {
   cards: GameCard[];
