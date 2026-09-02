@@ -21,17 +21,17 @@ export const games: Game[] = [
     name: "World of Warcraft",
 
     navigation: [
+               {
+        label: "Auction House",
+        href: "/wow/ah",
+      },
+         {
+        label: "Characters",
+        href: "/wow/characters",
+      },
       {
         label: "Guides",
         href: "/wow/guides",
-      },
-      {
-        label: "Builds",
-        href: "/wow/builds",
-      },
-      {
-        label: "Raids",
-        href: "/wow/raids",
       },
     ],
 
@@ -41,16 +41,51 @@ export const games: Game[] = [
         description: "Find useful World of Warcraft guides.",
       },
       {
-        title: "Builds",
-        description: "Explore World of Warcraft builds.",
+        title: "Characters",
+        description: "Explore World of Warcraft characters and stats.",
       },
-      {
-        title: "Raids",
-        description: "Prepare for your next raid.",
+          {
+        title: "Auction",
+        description: "Explore the auction house.",
       },
     ],
   },
+ {
+    id: "Rs3",
+    name: "RuneScape 3",
 
+    navigation: [
+      {
+        label: "Grand Exchange",
+        href: "/rs3/grand-exchange",
+      },
+      {
+        label: "Guides",
+        href: "/rs3/guides",
+      },
+      
+      {
+        label: "Setups",
+        href: "/rs3/setups",
+      },
+    ],
+
+    cards: [
+         {
+        title: "Grand Exchange",
+        description: "Explore the RuneScape 3 Grand Exchange.",
+      },
+      {
+        title: "Guides",
+        description: "Find useful RuneScape 3 guides.",
+      },
+   
+      {
+        title: "Stats",
+        description: "Explore RuneScape 3 stats and skills.",
+      },
+    ],
+  },
   {
     id: "ffxiv",
     name: "Final Fantasy XIV",
@@ -67,6 +102,10 @@ export const games: Game[] = [
       {
         label: "Crafting",
         href: "/ffxiv/crafting",
+      },
+        {
+        label: "Market Board",
+        href: "/ffxiv/market-board",
       },
     ],
 

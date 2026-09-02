@@ -51,28 +51,6 @@ export default function Navbar({
               </Link>
             ))}
 
-            {/* Static pages */}
-            <Link
-              href="/about"
-              className="hover:text-gray-300"
-            >
-              About
-            </Link>
-
-            <Link
-              href="/services"
-              className="hover:text-gray-300"
-            >
-              Services
-            </Link>
-
-            <Link
-              href="/contact"
-              className="hover:text-gray-300"
-            >
-              Contact
-            </Link>
-
             {/* Game Selector */}
             <div className="relative">
               <button
