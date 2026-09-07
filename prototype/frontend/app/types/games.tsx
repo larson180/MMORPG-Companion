@@ -23,15 +23,15 @@ export const games: Game[] = [
     navigation: [
                {
         label: "Auction House",
-        href: "/wow/ah",
+        href: "/games/wow/auctionhouse"
       },
          {
         label: "Characters",
-        href: "/wow/characters",
+        href: "/games/wow/characters",
       },
       {
         label: "Guides",
-        href: "/wow/guides",
+        href: "/games/wow/guides",
       },
     ],
 
@@ -57,16 +57,16 @@ export const games: Game[] = [
     navigation: [
       {
         label: "Grand Exchange",
-        href: "/rs3/grand-exchange",
+        href: "/games/rs3/grand-exchange",
       },
       {
         label: "Guides",
-        href: "/rs3/guides",
+        href: "/games/rs3/guides",
       },
       
       {
         label: "Setups",
-        href: "/rs3/setups",
+        href: "/games/rs3/setups",
       },
     ],
 
@@ -93,19 +93,19 @@ export const games: Game[] = [
     navigation: [
       {
         label: "Jobs",
-        href: "/ffxiv/jobs",
+        href: "/games/ffxiv/jobs",
       },
       {
         label: "Guides",
-        href: "/ffxiv/guides",
+        href: "/games/ffxiv/guides",
       },
       {
         label: "Crafting",
-        href: "/ffxiv/crafting",
+        href: "/games/ffxiv/crafting",
       },
         {
         label: "Market Board",
-        href: "/ffxiv/market-board",
+        href: "/games/ffxiv/market-board",
       },
     ],
 
@@ -121,41 +121,6 @@ export const games: Game[] = [
       {
         title: "Crafting",
         description: "Explore crafting and gathering.",
-      },
-    ],
-  },
-
-  {
-    id: "gw2",
-    name: "Guild Wars 2",
-
-    navigation: [
-      {
-        label: "Guides",
-        href: "/gw2/guides",
-      },
-      {
-        label: "Builds",
-        href: "/gw2/builds",
-      },
-      {
-        label: "Classes",
-        href: "/gw2/classes",
-      },
-    ],
-
-    cards: [
-      {
-        title: "Guides",
-        description: "Find useful Guild Wars 2 guides.",
-      },
-      {
-        title: "Builds",
-        description: "Explore Guild Wars 2 builds.",
-      },
-      {
-        title: "Classes",
-        description: "Learn about Guild Wars 2 classes.",
       },
     ],
   },
