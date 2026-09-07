@@ -15,7 +15,7 @@ export default function Hero({ cards }: HeroProps) {
     <section className="relative min-h-[600px] overflow-hidden">
       {/* Background image */}
       <Image
-        src="/rs3.jpg"
+        src="/bg.jpg"
         alt="Castle background"
         fill
         priority
